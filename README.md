@@ -36,8 +36,8 @@ Tipe Data Bolean pada PHP merupakan tipe data yang paling sederhana yakni hanya 
 * contoh penulisan tipe data bolean pada PHP.
 
 ```php
-$x = True;
-$y = False;
+$x = true;
+$y = false;
 ```
 Tipe Data tersebut memberikan nilai true atau false pada kondisi tertentu diantaranya Pada :
 
@@ -92,9 +92,9 @@ Array digunakan untuk menyimpan sekumpulan nilai yang bertipe data sama.
 
 Contoh Numeric Array :
 ```php
-$tuliskode[0] = "Hello";
-$tuliskode[1] = "Tuliskode";
-echo $tuliskode[0]." ".$tuliskode[1];
+$x[0] = "Hello";
+$x[1] = "Tuliskode";
+echo $x[0]." ".$x[1];
 ```
 Ket : Pemanggilan data pada jenis numeric array menggunakan angka, angka merupakan nomor index dari data array yang dimulai dari 0 sampai jumlah data yang dimasukkan. 
 
