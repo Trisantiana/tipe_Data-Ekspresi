@@ -36,8 +36,8 @@ Tipe Data Bolean pada PHP merupakan tipe data yang paling sederhana yakni hanya 
 * contoh penulisan tipe data bolean pada PHP.
 
 ```php
-$tuliskode1 = True;
-$tuliskode2 = False;
+$x = True;
+$y = False;
 ```
 Tipe Data tersebut memberikan nilai true atau false pada kondisi tertentu diantaranya Pada :
 
@@ -104,6 +104,7 @@ $tuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
 echo "kunjungi TulisKode, Website : $tuliskode[web], email = $tuliskode[email]";
 ```
 Ket :  Pada associative array pemanggilan nilai array menggunakan string yang telah kita ditentukan saat mendeklarasi array.
+
 3. Multidimensional Array.
 Contoh Multidimensional Array :
 ```php
