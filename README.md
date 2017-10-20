@@ -104,7 +104,9 @@ $tuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
 echo "kunjungi TulisKode, Website : $tuliskode[web], email = $tuliskode[email]";
 ```
 Ket :  Pada associative array pemanggilan nilai array menggunakan string yang telah kita ditentukan saat mendeklarasi array.
+
 3. Multidimensional Array.
+
 Contoh Multidimensional Array :
 ```php
 $tuliskode= array(
