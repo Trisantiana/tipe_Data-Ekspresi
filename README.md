@@ -1,5 +1,6 @@
 # Tipe Data Pada PHP
 **1. Integer**
+
 Tipe data integer digunakan untuk menyimpan bilangan bulat yang berisikan bilangan bulat negatif dan positif atau tanpa ada nilai pecahan. Atruran untuk tipe data integer :
 1. Harus minimal 1 digit (0-9).
 2. Harus mengandung koma atau tanda kurung.
@@ -58,12 +59,11 @@ echo 'tulisan dalam petik tunggal $tuliskode';
 echo "tulisan dalam petik ganda $tuliskode";
 ```
 
-**5. Objek**
+**5. Object**
 
 Tipe data objek pada php dibuat untuk pemrograman berbasis Object (Objek Oriented Programming). Tipe data ini dipakai untuk menyimpan informasi yang diberikan ke dalam suatu class.
 * Contoh penulisan tipe data Object
 ```php
-<?php
 class car
 {
     var $color;
@@ -80,7 +80,7 @@ class car
 **6. Tipe Data Null**
 * Contoh Penulisan tipe data Null
 ```php
-<?php
+
 $x = "Hello World!";
 $x = null;
 var_dump($x);
@@ -100,7 +100,7 @@ Ket : Pemanggilan data pada jenis numeric array menggunakan angka, angka merupak
 
 2. Associative Array
 Contoh Associative Array :
-``php
+```php
 $tuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
 echo "kunjungi TulisKode, Website : $tuliskode[web], email = $tuliskode[email]";
 ```
