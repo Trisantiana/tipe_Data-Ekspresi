@@ -10,7 +10,6 @@ Tipe data integer digunakan untuk menyimpan bilangan bulat yang berisikan bilang
 
 * Contoh penulisan tipe data integer :
 ```php
-<?php
 $x = 12;
 var_dump($x);
 echo "<br>";
@@ -114,5 +113,5 @@ array("motto=>ikatlah ilmu dengan berbagi","alamat=>Banda Aceh"));
 echo "kunjungi TulisKode, Website : $tuliskode[0][web], alamat = $tuliskode[1][alamat];
 ```
 
-#Referensi
+# Referensi
 * [Modul PWD]
