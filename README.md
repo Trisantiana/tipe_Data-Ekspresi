@@ -37,7 +37,7 @@ Tipe Data Bolean pada PHP merupakan tipe data yang paling sederhana yakni hanya 
 
 ```php
 $x = true;
-$y = fxalse;
+$y = false;
 ```
 Tipe Data tersebut memberikan nilai true atau false pada kondisi tertentu diantaranya Pada :
 
