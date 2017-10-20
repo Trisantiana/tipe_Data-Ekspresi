@@ -53,9 +53,9 @@ Tipe Data tersebut memberikan nilai true atau false pada kondisi tertentu dianta
 Tipe data string merupakan sebuah tipe data yang terdiri dari kata, baik kata tunggal maupun kalimat. Penulisan string pada PHP harus diapit oleh tanda petik tunggal (‘ ‘) atau tanda petik ganda (” “).
 * Contoh penulisan tipe data String pada PHP 
 ```php
-$tuliskode = "Hello World";
-echo 'tulisan dalam petik tunggal $tuliskode';
-echo "tulisan dalam petik ganda $tuliskode";
+$x = "Hello World";
+echo 'tulisan dalam petik tunggal $x';
+echo "tulisan dalam petik ganda $x";
 ```
 
 **5. Object**
@@ -102,8 +102,8 @@ Ket : Pemanggilan data pada jenis numeric array menggunakan angka, angka merupak
 
 Contoh Associative Array :
 ```php
-$tuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
-echo "kunjungi TulisKode, Website : $tuliskode[web], email = $tuliskode[email]";
+$xtuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
+echo "kunjungi TulisKode, Website : $x[web], email = $x[email]";
 ```
 Ket :  Pada associative array pemanggilan nilai array menggunakan string yang telah kita ditentukan saat mendeklarasi array.
 
@@ -111,7 +111,7 @@ Ket :  Pada associative array pemanggilan nilai array menggunakan string yang te
 
 Contoh Multidimensional Array :
 ```php
-$tuliskode= array(
+$x= array(
 array("web=>tuliskode.com","email=>info@tuliskode.com"),
 array("motto=>ikatlah ilmu dengan berbagi","alamat=>Banda Aceh"));
 echo "kunjungi TulisKode, Website : $tuliskode[0][web], alamat = $tuliskode[1][alamat];
