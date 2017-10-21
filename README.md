@@ -100,5 +100,37 @@ array("motto=>ikatlah ilmu dengan berbagi","alamat=>Banda Aceh"));
 echo "kunjungi TulisKode, Website : $x[0][web], alamat = $x[1][alamat];
 ```
 
+**7. Object**
+
+* Inisialisasi Object
+Untuk membuat objek baru, gunakan pernyataan baru untuk memberi contoh pada kelas:
+```php
+class foo
+{
+    function do_foo()
+    {
+        echo "Doing foo."; 
+    }
+}
+
+$bar = new foo;
+$bar->do_foo();
+```
+* Mengubah ke objek 
+
+Jika sebuah objek dikonversi ke suatu objek, maka objek tersebut tidak dimodifikasi. Jika nilai dari tipe lain dikonversi ke sebuah objek, sebuah instance baru dari stdClass built-in class dibuat. Jika nilainya NULL, instance baru akan kosong. Sebuah array mengkonversi ke objek dengan properti yang diberi nama oleh kunci dan nilai yang sesuai, kecuali kunci numerik yang tidak dapat diakses kecuali diulang.
+```php
+$obj = (object) array('1' => 'foo');
+var_dump(isset($obj->{'1'})); // outputs 'bool(false)'
+var_dump(key($obj)); // outputs 'int(1)'
+```
+Untuk nilai lainnya, variabel anggota bernama skalar akan berisi nilainya.
+```php
+$obj = (object) 'ciao';
+echo $obj->scalar;  // outputs 'ciao'
+```
+
+
+
 # Referensi
 * [Modul PWD]
