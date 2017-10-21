@@ -85,7 +85,7 @@ Ket : Pemanggilan data pada jenis numeric array menggunakan angka, angka merupak
 
 Contoh Associative Array :
 ```php
-$x= array("web=>tuliskode.com","email=>info$x.com");
+$x= array("web=>tuliskode.com","email=>infotulisankode.com");
 echo "kunjungi TulisKode, Website : $x[web], email = $x[email]";
 ```
 Ket :  Pada associative array pemanggilan nilai array menggunakan string yang telah kita ditentukan saat mendeklarasi array.
