@@ -28,7 +28,7 @@ Tipe Double Floating biasa juga disebut dengan double, float atau real merupakan
 
 * Contoh Penulisan tipe data Double Floating
 ```php
-$tuliskode = 3.5;
+$x = 3.5;
 ```
 **3. Boolean**
 
@@ -58,25 +58,8 @@ echo 'tulisan dalam petik tunggal $x';
 echo "tulisan dalam petik ganda $x";
 ```
 
-**5. Object**
 
-Tipe data objek pada php dibuat untuk pemrograman berbasis Object (Objek Oriented Programming). Tipe data ini dipakai untuk menyimpan informasi yang diberikan ke dalam suatu class.
-* Contoh penulisan tipe data Object
-```php
-class car
-{
-    var $color;
-    function car($color="green")
-    {
-        $this->color = $color;
-    }
-    function what_color()
-    {
-        return $this->color;
-    }
-}
-```
-**6. Tipe Data Null**
+**5. Tipe Data Null**
 * Contoh Penulisan tipe data Null
 ```php
 
@@ -85,7 +68,7 @@ $x = null;
 var_dump($x);
 ```
 
-**7. Array**
+**6. Array**
 Array digunakan untuk menyimpan sekumpulan nilai yang bertipe data sama.
 ## Pada PHP ada 3 (tiga) jenis array, yaitu : 
 1. Numeric Array
@@ -102,7 +85,7 @@ Ket : Pemanggilan data pada jenis numeric array menggunakan angka, angka merupak
 
 Contoh Associative Array :
 ```php
-$xtuliskode= array("web=>tuliskode.com","email=>info$tuliskode.com");
+$x= array("web=>tuliskode.com","email=>info$x.com");
 echo "kunjungi TulisKode, Website : $x[web], email = $x[email]";
 ```
 Ket :  Pada associative array pemanggilan nilai array menggunakan string yang telah kita ditentukan saat mendeklarasi array.
@@ -114,7 +97,7 @@ Contoh Multidimensional Array :
 $x= array(
 array("web=>tuliskode.com","email=>info@tuliskode.com"),
 array("motto=>ikatlah ilmu dengan berbagi","alamat=>Banda Aceh"));
-echo "kunjungi TulisKode, Website : $tuliskode[0][web], alamat = $tuliskode[1][alamat];
+echo "kunjungi TulisKode, Website : $x[0][web], alamat = $x[1][alamat];
 ```
 
 # Referensi
